@@ -14,7 +14,7 @@ where my_case and my_graph are a Case and Graph object, respectively.
 
 A bunch of functions for loading, storing, reshaping and manipulating data are provided that were written in the mentality of BASIS: generic node functions are heavily overloaded and flexible. They follow the simple semantic
 
->output = function(input, optional_input, name_value_pairs),
+`output = function(input, optional_input, name_value_pairs)`
 
 where input is a single or multiple mandatory input arguments, optional_input is a single or multiple optional arguments and name_value_pairs is a single or multiple optional name-value arguments. So far this might not be surprising; however, in BASIS, name-value arguments should only be constants that can be comfortably expressed by manual typing. More complicated data should be passed as inputs from other nodes.
 
