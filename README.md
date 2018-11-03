@@ -4,6 +4,12 @@ Batch Analysis of Image Sets (BASIS) is a Matlab framework for automating, archi
 
 BASIS is a fully OO, functional, dataflow framework. In brief, it lets you run a DAG stored as e.g., a .gml file. The graph nodes must be annotated by using BASIS' simple scripting language that is an extension of Matlab's anonymous function syntax. Coupled with a .gml editor, you can draw workflows, annotate them, then run them.
 
+BASIS makes your lab easier to maintain because your workflows are:
+
+- Visual: explore graphs visually instead of spending two days to read through a script that nobody remembers how to use
+- Archivable: save your .gml and case template instead of saving a Matlab script and remembering how to use it
+- Portable: you can give a case template and a .gml to your co-worker instead of giving him a complicated Matlab script and a lecture on how to use it
+
 Nodes can run simple named or anonymous functions, or chains (Pipelines) of these. The Graph class, the heart of BASIS, takes care of input-output routing and managing internal node data.
 
 Running a complex workflow that analyzes a folder of images is as simple as
