@@ -22,7 +22,7 @@ BASIS was developed for the University of Utah, Department of Chemical Engineeri
 
 Since the original repository has been gutted, it is likely that BASIS will not function properly after a simple pull and install. With a basic knowledge of Matlab, it should be easy to figure out why. The thirdparty library does not have all required packages, particularly due to missing license information. You can hunt down the missing libraries easily from FEX or from other places.
 
-##TL/DR:
+## TL/DR:
 
 BASIS can run a machine vision workflow expressed as a graph like [this](data/graphs/shadow_simple_processing.png) on an entire folder of images in one line.
 
