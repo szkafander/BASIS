@@ -1,4 +1,4 @@
-# BASIS
+# Batch AnalysiS of Image Sets --- BASIS
 
 Batch Analysis of Image Sets (BASIS) is a Matlab framework for automating, archiving and running image analysis, image processing and machine vision workflows.
 
