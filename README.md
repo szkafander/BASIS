@@ -32,4 +32,4 @@ Since the original repository has been gutted, it is likely that BASIS will not 
 
 BASIS can run a machine vision workflow expressed as a graph like [this](data/graphs/shadow_simple_processing.png) on an entire folder of images in one line.
 
-See BASIS.pdf for more.
+See [BASIS.pdf](BASIS.pdf) for more.
