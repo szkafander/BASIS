@@ -18,7 +18,7 @@ Running a complex workflow that analyzes a folder of images is as simple as
 
 where my_case and my_graph are a Case and Graph object, respectively.
 
-A bunch of functions for loading, storing, reshaping and manipulating data are provided that were written in the mentality of BASIS: generic node functions are heavily overloaded and flexible. They follow the simple semantic
+A bunch of functions for loading, storing, reshaping and manipulating data are provided that were written in the mentality of BASIS: generic node functions are heavily overloaded and flexible. They follow the simple form
 
 `output = function(input, optional_input, name_value_pairs)`
 
